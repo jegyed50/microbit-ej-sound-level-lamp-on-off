@@ -39,3 +39,4 @@ let fenyero = 0
 let lamp = 0
 lamp = 0
 fenyero = 124
+led.setDisplayMode(DisplayMode.Greyscale)
