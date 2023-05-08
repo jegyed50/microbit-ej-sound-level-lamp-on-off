@@ -1,5 +1,5 @@
 {
-    "name": "microbit-ej-sound-level-lamp-on-off-change-brightness",
+    "name": "microbit-ej-lamp-on-off-change-brightness-rainbow",
     "description": "",
     "dependencies": {
         "core": "*",
