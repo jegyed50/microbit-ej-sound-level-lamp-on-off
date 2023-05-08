@@ -16,6 +16,12 @@ input.onSound(DetectedSound.Loud, function () {
             # # # # #
             # # # # #
             `)
+        basic.pause(500)
+        for (let index2 = 0; index2 <= 4; index2++) {
+            for (let index = 0; index <= 4; index++) {
+                led.plotBrightness(index, index2, index * 30 + 5)
+            }
+        }
     } else {
         lamp = 0
         basic.showLeds(`
